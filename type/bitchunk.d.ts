@@ -7,7 +7,7 @@
  * @param toBit The desired bit width of the values in the output array. Defaults to 8.
  * @returns An array of numbers, where each number represents a value with the `toBit` width.
  * @throws {RangeError} If `fromBit` is less than `toBit`.
- * @version 0.0.0
+ * @version 0.0.1
  */
 export declare function high_to_low_BE(words?: number[], fromBit?: number, toBit?: number): number[];
 
@@ -20,6 +20,6 @@ export declare function high_to_low_BE(words?: number[], fromBit?: number, toBit
  * @param toBit The desired bit width of the values in the output array. Defaults to 16.
  * @returns An array of numbers, where each number represents a value with the `toBit` width.
  * @throws {RangeError} If `fromBit` is greater than `toBit` or if `toBit` is greater than 52.
- * @version 0.0.0
+ * @version 0.0.1
  */
 export declare function low_to_high_BE(words?: number[], fromBit?: number, toBit?: number): number[];
